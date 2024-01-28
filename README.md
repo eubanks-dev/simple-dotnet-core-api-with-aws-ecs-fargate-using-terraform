@@ -1,5 +1,5 @@
-Commands that led to a running .NET 7 web API in Docker container and serving it at localhost:5001/weatherforecast:
-
+### Commands that led to a running .NET 7 web API in Docker container and serving it at localhost:5001/weatherforecast:
+```
  1188  git clone https://github.com/eubanks-dev/simple-dotnet-core-api-with-aws-ecs-fargate-using-terraform.git
  1189  ls
  1190  cd simple-dotnet-core-api-with-aws-ecs-fargate-using-terraform
@@ -133,3 +133,4 @@ Switched to MS tutorial: https://learn.microsoft.com/en-us/dotnet/core/docker/bu
  1312  docker start -d -p 5001:80 webapi-image
  1313  docker ps
  1314  docker run -d -p 5001:80 webapi-image
+```
